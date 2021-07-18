@@ -1,0 +1,19 @@
+.categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: .5em;
+
+    .category-item {
+        padding: 10px 7px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .categories {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}

@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $poppins;
+    font-size: 14px;
+    overflow-x: hidden;
+    color: $color-font;
+}
+
+.container {
+    padding: 0px 70px;
+}
+
+a {
+    color: $color-font;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.bg-transparent {
+    background-color: transparent;
+    color: white;
+}
+
+.rating {
+    color: $color-secondary;
+
+    .unrate {
+        color: #eaeaea;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .container {
+        padding: 0px 50px;
+    }
+}
+
+// Mobile Mode
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 0px 30px;
+    }
+}

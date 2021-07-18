@@ -1,0 +1,22 @@
+@import 'fonts';
+@import 'variables';
+@import 'mixins';
+@import 'globals';
+
+
+// components
+@import './components/skip-link';
+@import './components/nav';
+@import './components/button';
+@import './components/card';
+@import './components/footer';
+@import './components/image';
+
+// pages
+@import './pages/home';
+@import './pages/detail';
+@import './pages/favorite';
+
+.mt-100 {
+    margin-top: 100px;
+}
