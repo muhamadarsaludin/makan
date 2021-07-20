@@ -9,8 +9,8 @@ const Home = {
         <!-- hero -->
         <div class="hero">
             <picture>
-                <source type="image/webp" media="(max-width: 600px)" srcset="./images/heros/hero-image_2-large.webp">
-                <source type="image/jpeg" media="(max-width: 600px)" srcset="./images/heros/hero-image_2-large.jpg">
+                <source type="image/webp" media="(max-width: 600px)" srcset="./images/heros/hero-image_2-small.webp">
+                <source type="image/jpeg" media="(max-width: 600px)" srcset="./images/heros/hero-image_2-small.jpg">
                 <img 
                     src="./images/heros/hero-image_2-large.jpg" 
                     alt="hero makan image"></img>
